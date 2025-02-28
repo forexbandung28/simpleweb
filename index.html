@@ -1,9 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>My First JS Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Welcome to My Website</h1>
+        <button id="clickMe">Click Me</button>
+        <p id="message"></p>
+        
+        
+        <h2>Login Form</h2>
+        <form id="loginForm">
+        <input type="text" id="username" placeholder="Enter Username" required>
+        <input type="password" id="password" placeholder="Enter Password" required>
+        <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+        
+        <h2>Weather Info</h2>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="getWeather">Get Weather</button>
+        <p id="weatherResult"></p>
 
-<body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+        <script src="script.js"></script>
+    </body>
 
 </html>
